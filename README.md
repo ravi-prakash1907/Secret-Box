@@ -22,6 +22,9 @@ Open this project directory in the terminal/console
 ```
 virtualenv env
 source env/bin/activate
+
+pip install flask flask-sqlalchemy
+
 from app import db
 db.create_all()
 exit()
