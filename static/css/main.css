@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: Operator;
+}
+
+h1 {
+    padding: 5% 0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+th, td {
+    width: 20%;
+    padding: 2%;
+}
+
+p {
+    float: right;
+    margin-top: 30%;
+    margin-right: 3%;
+}
