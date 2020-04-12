@@ -1,5 +1,5 @@
 # TODO-List-App-Flask
-It's my first Flask project
+It's my first Flask project and hence at some extents, it's a dummy level project.
 
 
 This is a todo-list app, developed using **Flask** that lets user to add new tasks that are to be done.
