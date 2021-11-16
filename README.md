@@ -36,3 +36,11 @@ source env/bin/activate
 ```
 python3 app.py
 ```
+
+---  
+
+## Working with Containers:  
+
+Folloing 2 commands will be needed:  
+1. ```$ docker build -t simple-flask-app:latest .```  
+2. ```$ docker run -d -p 5000:5000 simple-flask-app```  
