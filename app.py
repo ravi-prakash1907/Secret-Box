@@ -68,8 +68,8 @@ def update(id):
     task = Todo.query.get_or_404(id)
 
     if request.method == 'POST':
-        task.content = request.form['content']  # there is nothing like --> session.update()
-        task_content = encoder.mainFun(task_content)
+        task_content = request.form['content']  # there is nothing like --> session.update()
+        task.content = encoder.mainFun(task_content)
 
         try:
             db.session.commit()
@@ -78,6 +78,7 @@ def update(id):
             return 'Oops!! Error occured while updating!'
     
     else:
+        task.content = decoder.mainFun(task.content)
         return render_template('update.html', task=task)
 
 
