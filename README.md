@@ -1,4 +1,6 @@
 # Secret-Box : A Secure Task Manager
+![assets/banner.jpg](assets/banner.jpg)  
+
 Introducing _Secret-Box_ app, that is a very basic application made to keep a track on the tasks (more similar to the _totdo list manager_). The app is developed on [Flask](https://flask.palletsprojects.com/) web-framework of python.  
 
 The Secret-Box provieds following features to the end-user:  
