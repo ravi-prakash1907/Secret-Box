@@ -65,7 +65,8 @@ Everytime, in order to use the applicaation, following 3 easy steps will be requ
 >   - ```$ cd <download location>/Secret-Box/```  
 >   
 > Step 2. Activate _env_ and run ```app.py```:  
->   - ```$ source env/bin/activate  
+>   - ```
+>        $ source env/bin/activate  
 >        $ python app.py  
 >     ```  
 >   
